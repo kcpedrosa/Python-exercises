@@ -1,0 +1,2 @@
+dist = float(input('Digite a distância da viagem em KM: '))
+print (' O valor da corrida é de R$ {:.2f} reais. '.format(dist * 0.50) if dist <= 200 else ' O valor da corrida é de R$ {:.2f} reais. '.format(dist * 0.45))

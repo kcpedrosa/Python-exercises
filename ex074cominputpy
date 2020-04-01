@@ -1,0 +1,7 @@
+#Maior e menor valores em Tupla
+from random import randint
+numeros = (int(input('Digite o 1º numero: ')), int(input('Digite o 2º numero: ')),
+           int(input('Digite o 3º numero: ')), int(input('Digite o 4º numero: ')))
+print(f'Os numeros digitados foram {numeros}')
+print(f'O maior numero dentre os digitados foi {max(numeros)}')
+print(f'O menor numero dentre os digitados foi {min(numeros)}')
